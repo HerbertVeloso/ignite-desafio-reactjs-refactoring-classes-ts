@@ -2,6 +2,9 @@
   "name": "refactoring-classes-ts",
   "version": "0.1.0",
   "private": true,
+  "overrides": {
+    "react-error-overlay": "6.0.9"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -14,7 +17,7 @@
     "react-icons": "^4.2.0",
     "react-modal": "^3.12.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "styled-components": "^5.2.1",
     "yup": "^0.32.9"
   },
@@ -44,6 +47,12 @@
     ]
   },
   "devDependencies": {
-    "json-server": "^0.16.3"
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@types/react-modal": "^3.13.1",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "json-server": "^0.16.3",
+    "typescript": "^4.8.4"
   }
 }
